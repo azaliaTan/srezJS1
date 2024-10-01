@@ -16,6 +16,7 @@ menu.forEach(menu_item=>{
     menu_item.addEventListener('mouseleave',function(){
         submenu.classList.remove('active');
         btn.classList.remove('active');
+        btn.style.color='white';
       
     })
 
